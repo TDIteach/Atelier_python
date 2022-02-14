@@ -1,0 +1,12 @@
+from src.getsion_point import Point
+p1=Point(22,8)
+p2=Point(22,8.6)
+print(p1==p2)
+d=p1.calculer_distance(p2)
+d2=Point.calculerDistanceSatique(p1,p2)
+# m=p1.calculer_milieu(p2)
+# print("X=",p1.Abs)
+print(f"Distance {p1}-{p2}={d}")
+print(f"Distance avec statique {p1}-{p2}={d2}")
+# print(f"Milieu {p1}-{p2}={m}")
+# print(Point.nb)
